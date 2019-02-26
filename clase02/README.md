@@ -13,6 +13,8 @@
 
 **Bibliografía:**
 
-* Views, Layouts y ViewGroups ![Views, Layouts y ViewGroups](https://developer.android.com/guide/topics/ui/declaring-layout?hl=es-419)
+* ![Views, Layouts y ViewGroups](https://developer.android.com/guide/topics/ui/declaring-layout?hl=es-419)
 
-* Recycler View ![Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview)
+* ![Recycler View](https://developer.android.com/guide/topics/ui/layout/recyclerview)
+
+*Como ven la bibliografía es poco por ver pero extremadamente importante conocer bien cada uno de esos conceptos de base.*
