@@ -14,3 +14,9 @@ results:
 https://api.mercadolibre.com/items/{id} pictures[0].url
 
 https://api.mercadolibre.com/items/{id}/description plain.text
+
+Api calls
+[retrofit](https://square.github.io/retrofit/)
+
+Images calls
+[picasso](http://square.github.io/picasso/)
