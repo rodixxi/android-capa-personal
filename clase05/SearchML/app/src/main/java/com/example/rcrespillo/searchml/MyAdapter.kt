@@ -20,9 +20,9 @@ class MyAdapter(private val myDataset: Array<String>) :
                                     viewType: Int): MyAdapter.MyViewHolder {
         // create a new view
         val textView = LayoutInflater.from(parent.context)
-            .inflate(R.layout.my_text_view, parent, false) as TextView
+            .inflate(R.layout.search_detail_ml, parent, false) as TextView
         // set the view's size, margins, paddings and layout parameters
-        ...
+
         return MyViewHolder(textView)
     }
 

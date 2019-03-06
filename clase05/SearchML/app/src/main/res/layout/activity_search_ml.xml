@@ -11,17 +11,29 @@
             android:layout_width="352dp"
             android:layout_height="wrap_content"
             android:inputType="textPersonName"
-            android:text="Name"
+            android:text="@string/searchText"
             android:ems="10"
-            tools:layout_editor_absoluteY="16dp" tools:layout_editor_absoluteX="16dp" android:id="@+id/editText"/>
+            android:id="@+id/searchText"
+            tools:ignore="MissingConstraints" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="16dp" android:layout_marginBottom="15dp"
+            app:layout_constraintBottom_toTopOf="@+id/cleanButton" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"/>
     <Button
-            android:text="Button"
+            android:text="@string/cleanButton"
             android:layout_width="175dp"
-            android:layout_height="48dp" tools:layout_editor_absoluteY="77dp"
-            tools:layout_editor_absoluteX="16dp" android:id="@+id/button"/>
+            android:layout_height="48dp"
+            android:id="@+id/cleanButton" tools:ignore="MissingConstraints"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/searchText"
+            app:layout_constraintEnd_toStartOf="@+id/searchButton" android:layout_marginEnd="2dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="16dp"/>
     <Button
-            android:text="Button"
+            android:text="@string/searchButton"
             android:layout_width="175dp"
-            android:layout_height="48dp" tools:layout_editor_absoluteY="77dp"
-            tools:layout_editor_absoluteX="193dp" android:id="@+id/button2"/>
+            android:layout_height="48dp"
+            android:id="@+id/searchButton" tools:ignore="MissingConstraints"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/searchText"
+            app:layout_constraintStart_toEndOf="@+id/cleanButton" android:layout_marginStart="2dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="16dp"
+    />
 </android.support.constraint.ConstraintLayout>
