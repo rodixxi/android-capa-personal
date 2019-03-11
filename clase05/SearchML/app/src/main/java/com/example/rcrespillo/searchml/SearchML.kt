@@ -18,7 +18,7 @@ class SearchML : AppCompatActivity() {
 
         btn_search.setOnClickListener{
             val intent = Intent(this, SearchListML::class.java)
-            intent.putExtra("searchText", txt_search.text)
+            intent.putExtra("searchText", txt_search.text.toString())
             startActivity(intent)
         }
 
